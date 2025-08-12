@@ -1,0 +1,35 @@
+{
+  "roles": {
+    "admin": {
+      "description": "Full access to all data sources",
+      "access": ["slack", "github", "outlook"],
+      "permissions": ["read", "write", "sync"]
+    },
+    "developer": {
+      "description": "Access to development-related data",
+      "access": ["slack", "github"],
+      "permissions": ["read", "sync"]
+    },
+    "marketing": {
+      "description": "Access to marketing and communication data",
+      "access": ["slack", "outlook"],
+      "permissions": ["read", "sync"]
+    },
+    "sales": {
+      "description": "Access to sales and communication data",
+      "access": ["slack", "outlook"],
+      "permissions": ["read", "sync"]
+    },
+    "user": {
+      "description": "Basic access to general data",
+      "access": ["slack"],
+      "permissions": ["read"]
+    }
+  },
+  "user_mappings": {
+    "admin@company.com": "admin",
+    "developer@company.com": "developer",
+    "marketing@company.com": "marketing",
+    "sales@company.com": "sales"
+  }
+}

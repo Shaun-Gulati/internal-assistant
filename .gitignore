@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Svelte
+.svelte-kit/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+ehthumbs.db
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Python specific logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Data files
+data/
+embeddings/
+*.db
+*.sqlite
+
+# Upload directory (temporary files)
+uploads/
+*.pdf
+*.docx
+*.doc
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
