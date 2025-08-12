@@ -132,3 +132,4 @@ The platform supports uploading and processing PDF and Word documents:
 - **Vector DB**: local file storage
 - **LLM**: OpenAI GPT-4
 - **Embeddings**: OpenAI text-embedding-3-small
+# UnlimitedAI_InternalAssistant
